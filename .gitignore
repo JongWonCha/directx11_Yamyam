@@ -410,3 +410,8 @@ FodyWeavers.xsd
 !External/Library/Assimp/Debug/
 !External/Library/Assimp/Release/
 
+.idea/.idea.YamYamEngine/.idea/.name
+.idea/.idea.YamYamEngine/.idea/indexLayout.xml
+.idea/.idea.YamYamEngine/.idea/projectSettingsUpdater.xml
+.idea/.idea.YamYamEngine/.idea/vcs.xml
+.idea/.idea.YamYamEngine/.idea/workspace.xml
