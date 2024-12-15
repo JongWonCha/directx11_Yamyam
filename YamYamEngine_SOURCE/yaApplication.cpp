@@ -6,6 +6,7 @@
 #include "yaCollisionManager.h"
 #include "yaUIManager.h"
 #include "yaFmod.h"
+#include "yaRenderer.h"
 
 namespace ya
 {
@@ -31,6 +32,7 @@ namespace ya
 		initializeEtc();
 
 		mGraphicDevice = std::make_unique<graphics::GraphicDevice_DX11>();
+		renderer::Initialize();
 		mGraphicDevice->Initialize();
 
 		Fmod::Initialize();
@@ -85,6 +87,7 @@ namespace ya
 		SceneManager::Release();
 		UIManager::Release();
 		Resources::Release();
+		renderer::Release();
 	}
 
 	void Application::clearRenderTarget()
