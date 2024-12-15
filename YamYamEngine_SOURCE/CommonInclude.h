@@ -24,7 +24,4 @@
 
 #include "yaEnums.h"
 #include "yaMath.h"
-#include <wrl.h>
-
-
-
+#include "yaGraphics.h"

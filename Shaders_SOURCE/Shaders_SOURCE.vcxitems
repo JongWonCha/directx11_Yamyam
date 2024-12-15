@@ -17,4 +17,7 @@
     <FxCompile Include="$(MSBuildThisFileDirectory)TrianglePS.hlsl" />
     <FxCompile Include="$(MSBuildThisFileDirectory)TriangleVS.hlsl" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)ConstantBuffers.hlsli" />
+  </ItemGroup>
 </Project>

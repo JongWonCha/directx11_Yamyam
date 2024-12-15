@@ -13,7 +13,11 @@ namespace ya::renderer
 	};
 
 	extern Vertex vertexes[3];
+	extern std::vector<UINT> indices;
+
 	extern ID3D11Buffer* vertexBuffer;
+	extern ID3D11Buffer* indexBuffer;
+	extern ID3D11Buffer* constantBuffer;
 
 	extern ID3DBlob* vsBlob;
 	extern ID3D11VertexShader* vsShader;

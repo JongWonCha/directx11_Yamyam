@@ -20,6 +20,7 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)yaAudioSource.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)yaFmod.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)yaGraphicDevice_DX11.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)yaGraphics.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)yaMath.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)yaUIHUD.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)yaAnimation.h" />
