@@ -112,6 +112,15 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)yaGraphicDevice_DX11.cpp">
       <Filter>GraphicDevice</Filter>
     </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)yaShader.cpp">
+      <Filter>Resource\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)yaMesh.cpp">
+      <Filter>Resource\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)yaMaterial.cpp">
+      <Filter>Resource\Material</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="$(MSBuildThisFileDirectory)CommonInclude.h">
@@ -234,6 +243,15 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)yaGraphics.h">
       <Filter>Common</Filter>
     </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)yaShader.h">
+      <Filter>Resource\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)yaMesh.h">
+      <Filter>Resource\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)yaMaterial.h">
+      <Filter>Resource\Material</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Common">
@@ -319,6 +337,18 @@
     </Filter>
     <Filter Include="GraphicDevice">
       <UniqueIdentifier>{02858ed0-bc1c-4697-a572-b020030609cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Graphics">
+      <UniqueIdentifier>{61aac928-b260-403e-928a-a2405efde6be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Graphics\Shader">
+      <UniqueIdentifier>{ef3bef47-bfaf-44d3-9176-729b63550109}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Mesh">
+      <UniqueIdentifier>{7fcde7f2-d910-4a01-b0f8-a4dba0bcf531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Material">
+      <UniqueIdentifier>{8cb017b5-ad0a-4262-acfc-762c2063fd4b}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

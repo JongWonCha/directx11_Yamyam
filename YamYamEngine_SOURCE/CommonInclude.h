@@ -25,4 +25,3 @@
 
 #include "yaEnums.h"
 #include "yaMath.h"
-#include "yaGraphics.h"
